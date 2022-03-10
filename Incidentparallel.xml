@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Suite">
+  <test thread-count="2" parallel="classes" name="Test">
+    <classes>
+      <class name="iTests.S1_1001_CreateIncident"/>
+      <class name="iTests.S1_1003_UpdateIncident"/>
+      <class name="iTests.S1_1002_DeleteIncident"/>
+      <class name="iTests.S1_1004_AssignIncident"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
